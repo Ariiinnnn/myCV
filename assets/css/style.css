@@ -1902,6 +1902,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 /* Navbar active button */
 .navbar-link.active {
-  background-color: rgba(0, 0, 0, 0.1); /* Light shade for active button */
+  background-color: rgba(0, 0, 0, 0.1); /* subtle shade */
+  color: #FFD700; /* yellow text */
   border-radius: 5px; /* optional rounded corners */
 }

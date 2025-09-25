@@ -1906,3 +1906,22 @@ textarea.form-input::-webkit-resizer { display: none; }
   color: #FFD700; /* yellow text */
   border-radius: 5px; /* optional rounded corners */
 }
+
+/* Navbar active button text & background - works on mobile and desktop */
+.navbar-link.active {
+  background-color: rgba(0, 0, 0, 0.1); /* subtle shade */
+  color: #FFD700 !important;           /* yellow text */
+  border-radius: 5px;
+  transition: color 0.3s, background-color 0.3s;
+}
+
+/* Sidebar toggle buttons (mobile) */
+.sidebar .navbar-link.active {
+  color: #FFD700 !important;
+}
+
+/* Optional: hover effect */
+.navbar-link:hover,
+.sidebar .navbar-link:hover {
+  color: #FFD700;
+}

@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
+
+  <!-- favicon -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!-- custom css -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <main>
+    <!-- SIDEBAR -->
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="./assets/images/avatar-1.png" alt="Arjiannah Carmelle Borleo" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Arjiannah Carmelle Borleo">Arjiannah Carmelle Borleo</h1>
+          <p class="title">Aspiring Web Developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
+
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box"><ion-icon name="mail-outline"></ion-icon></div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a href="mailto:anelleborleo13@gmail.com" class="contact-link">anelleborleo13@gmail.com</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box"><ion-icon name="phone-portrait-outline"></ion-icon></div>
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+              <a href="tel:09611785115" class="contact-link">0961-178-5115</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box"><ion-icon name="calendar-outline"></ion-icon></div>
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+              <time datetime="2006-02-05">February 5, 2006</time>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box"><ion-icon name="location-outline"></ion-icon></div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address>Tabaco City, Albay, Philippines</address>
+            </div>
+          </li>
+        </ul>
+        <div class="separator"></div>
+        <ul class="social-list">
+          <li class="social-item"><a href="#" class="social-link"><ion-icon class="socials-icons" name="logo-facebook"></ion-icon></a></li>
+          <li class="social-item"><a href="#" class="social-link"><ion-icon class="socials-icons" name="logo-instagram"></ion-icon></a></li>
+          <li class="social-item"><a href="#" class="social-link"><ion-icon class="socials-icons" name="logo-github"></ion-icon></a></li>
+        </ul>
+      </div>
+    </aside>
+
+    <!-- MAIN CONTENT -->
+    <div class="main-content">
+      <!-- NAVBAR -->
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item"><button class="navbar-link active" data-nav-link>About</button></li>
+          <li class="navbar-item"><button class="navbar-link" data-nav-link>Resume</button></li>
+          <li class="navbar-item"><button class="navbar-link" data-nav-link>Portfolio</button></li>
+          <li class="navbar-item"><button class="navbar-link" data-nav-link>Contact</button></li>
+        </ul>
+      </nav>
+
+      <!-- ABOUT -->
+      <article class="about active" data-page="about">
+        <header><h2 class="h2 article-title">About me</h2></header>
+        <section class="about-text">
+          <p>
+            I am a Bachelor of Science in Information Systems student at Bicol University. 
+            I enjoy turning complex problems into simple, beautiful and intuitive designs. 
+          </p>
+          <p>
+            My job is to contribute building your website so that it is functional and user-friendly but at the same time attractive. 
+          </p>
+        </section>
+
+        <!-- SERVICES -->
+        <section class="service">
+          <h3 class="h3 service-title">What I'm Doing</h3>
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-icon-box"><img src="./assets/images/icon-dev.svg" alt="Web development" width="40"></div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web Development</h4>
+                <p class="service-item-text">Building functional, user-friendly websites using HTML, CSS, and JavaScript.</p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box"><img src="./assets/images/icon-design.svg" alt="UI/UX" width="40"></div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">UI/UX Design</h4>
+                <p class="service-item-text">Wireframing and prototyping interactive app designs using Figma.</p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box"><img src="./assets/images/icon-app.svg" alt="Database" width="40"></div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Database Management</h4>
+                <p class="service-item-text">Organizing and editing structured data using Excel and database basics.</p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box"><img src="./assets/images/icon-quote.svg" alt="Creative Design" width="40"></div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Creative & Graphic Design</h4>
+                <p class="service-item-text">Designing infographics, digital art, and engaging creative content.</p>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+      <!-- RESUME -->
+      <article class="resume" data-page="resume">
+        <header><h2 class="h2 article-title">Resume</h2></header>
+
+        <!-- Education -->
+        <section class="timeline">
+          <div class="title-wrapper"><div class="icon-box"><ion-icon name="book-outline"></ion-icon></div><h3 class="h3">Education</h3></div>
+          <ol class="timeline-list">
+            <li class="timeline-item"><h4 class="h4 timeline-item-title">Bicol University</h4><span>2024 – Present</span><p class="timeline-text">Bachelor of Science in Information Systems</p></li>
+            <li class="timeline-item"><h4 class="h4 timeline-item-title">Catholic Central School of Tabaco, Albay, Inc.</h4><span>2018 – 2024</span><p class="timeline-text">Senior High (STEM Strand) and Junior High School</p></li>
+          </ol>
+        </section>
+
+        <!-- Experience -->
+        <section class="timeline">
+          <div class="title-wrapper"><div class="icon-box"><ion-icon name="briefcase-outline"></ion-icon></div><h3 class="h3">Experience</h3></div>
+          <ol class="timeline-list">
+            <li class="timeline-item"><h4 class="h4 timeline-item-title">Work Immersion – IT Department</h4><span>2024</span><p class="timeline-text">4P’s Office, Tabaco City — Managed and organized documents, encoded accurate data, and maintained filing systems.</p></li>
+            <li class="timeline-item"><h4 class="h4 timeline-item-title">E-commerce Store Assistant</h4><span>2024</span><p class="timeline-text">Edited shipping locator databases, managed Excel records, and ensured accuracy of customer and shipping information.</p></li>
+            <li class="timeline-item"><h4 class="h4 timeline-item-title">Logistics Support</h4><span>2024</span><p class="timeline-text">Packed and prepared parcels, assisted with logistics operations, and tracked deliveries.</p></li>
+          </ol>
+        </section>
+
+        <!-- Skills -->
+        <section class="skill">
+          <h3 class="h3 skills-title">My Skills</h3>
+          <ul class="skills-list content-card">
+            <li class="skills-item"><div class="title-wrapper"><h5 class="h5">HTML / CSS</h5><data value="60">60%</data></div><div class="skill-progress-bg"><div class="skill-progress-fill" style="width: 60%;"></div></div></li>
+            <li class="skills-item"><div class="title-wrapper"><h5 class="h5">C++</h5><data value="60">60%</data></div><div class="skill-progress-bg"><div class="skill-progress-fill" style="width: 60%;"></div></div></li>
+            <li class="skills-item"><div class="title-wrapper"><h5 class="h5">Java</h5><data value="50">50%</data></div><div class="skill-progress-bg"><div class="skill-progress-fill" style="width: 50%;"></div></div></li>
+            <li class="skills-item"><div class="title-wrapper"><h5 class="h5">Web Design</h5><data value="50">50%</data></div><div class="skill-progress-bg"><div class="skill-progress-fill" style="width: 50%;"></div></div></li>
+            <li class="skills-item"><div class="title-wrapper"><h5 class="h5">Graphic Design</h5><data value="70">70%</data></div><div class="skill-progress-bg"><div class="skill-progress-fill" style="width: 70%;"></div></div></li>
+            <li class="skills-item"><div class="title-wrapper"><h5 class="h5">WordPress</h5><data value="20">20%</data></div><div class="skill-progress-bg"><div class="skill-progress-fill" style="width: 20%;"></div></div></li>
+            <li class="skills-item"><div class="title-wrapper"><h5 class="h5">UI/UX (Figma)</h5><data value="70">70%</data></div><div class="skill-progress-bg"><div class="skill-progress-fill" style="width: 70%;"></div></div></li>
+            <li class="skills-item"><div class="title-wrapper"><h5 class="h5">GitHub</h5><data value="50">50%</data></div><div class="skill-progress-bg"><div class="skill-progress-fill" style="width: 50%;"></div></div></li>
+            <li class="skills-item"><div class="title-wrapper"><h5 class="h5">MS Excel</h5><data value="60">60%</data></div><div class="skill-progress-bg"><div class="skill-progress-fill" style="width: 60%;"></div></div></li>
+          </ul>
+        </section>
+      </article>
+
+      <!-- PORTFOLIO -->
+      <article class="portfolio" data-page="portfolio">
+        <header><h2 class="h2 article-title">Portfolio</h2></header>
+
+        <section class="projects">
+          <ul class="filter-list">
+            <li class="filter-item"><button class="active" data-filter-btn>All</button></li>
+            <li class="filter-item"><button data-filter-btn>Web design</button></li>
+            <li class="filter-item"><button data-filter-btn>Applications</button></li>
+            <li class="filter-item"><button data-filter-btn>System development</button></li>
+          </ul>
+
+          <div class="filter-select-box">
+            <button class="filter-select" data-select>
+              <div class="select-value" data-selecct-value>Select category</div>
+              <div class="select-icon"><ion-icon name="chevron-down"></ion-icon></div>
+            </button>
+
+            <ul class="select-list">
+              <li class="select-item"><button data-select-item>All</button></li>
+              <li class="select-item"><button data-select-item>Web design</button></li>
+              <li class="select-item"><button data-select-item>Applications</button></li>
+              <li class="select-item"><button data-select-item>System development</button></li>
+            </ul>
+          </div>
+
+          <ul class="project-list">
+            <!-- Web Design -->
+            <li class="project-item active" data-filter-item data-category="web design">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+                  <img src="./assets/images/project-2.png" alt="Web Design Project" loading="lazy">
+                </figure>
+                <h3 class="project-title">Web Design Project</h3>
+                <p class="project-category">Web design</p>
+              </a>
+            </li>
+
+            <!-- Applications -->
+            <li class="project-item active" data-filter-item data-category="applications">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+                  <img src="./assets/images/project-1.png" alt="Application Project" loading="lazy">
+                </figure>
+                <h3 class="project-title">Application Project</h3>
+                <p class="project-category">Applications</p>
+              </a>
+            </li>
+
+            <!-- System Development -->
+            <li class="project-item active" data-filter-item data-category="system development">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+                  <img src="./assets/images/project-3.png" alt="System Development Project" loading="lazy">
+                </figure>
+                <h3 class="project-title">System Development Project</h3>
+                <p class="project-category">System development</p>
+              </a>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+      <!-- CONTACT -->
+      <article class="contact" data-page="contact">
+        <header><h2 class="h2 article-title">Contact</h2></header>
+        <section class="contact-form">
+          <h3 class="h3 form-title">Contact Form</h3>
+          <form action="#" class="form" data-form>
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+          </form>
+        </section>
+      </article>
+    </div>
+  </main>
+
+  <!-- custom js -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- ionicon -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
